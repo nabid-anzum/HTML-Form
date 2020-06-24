@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.image-container img{
+  border-radius: 50%;
+}
+.text-container{
+  text-align: center;
+}
+nav{
+  float: left;
+  width: 24%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: white;
+  padding: 20px;
+}
+.fas{
+  position: relative;
+}
+.article {
+  float: left;
+  padding: 20px;
+  width: 76%;
+  background-color: rgb(132, 155, 219);
+  height: 300px; /* only for demonstration, should be removed */
+}
+.upper-article{
+  text-align: right;
+  padding: 1%;
+  height: 150px;
+}
+.left-upper-article{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+}
+.right-upper-article-lower-icon{
+  color: white;
+  background-color: rgb(180, 196, 240);
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 45px;
+  width: 470px;
+  height: 50px;
+  padding: 1%;
+  border-radius: 20px;
+}
+.upper-middle-container{
+  display: flex;
+}
+.left-upper-middle-container{
+  width: 70%;
+}
+label{
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 1%;
+}
+#member{
+  width: 660px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 1%;
+}
+#packeg{
+  width: 660px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 1%;
+}
+#intro{
+  width: 230px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 3%;
+}
+#birthday{
+  width: 230px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 3%;
+}
+#introduction{
+  width: 230px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 1%;
+}
+#mintro{
+  width: 230px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: .7em;
+  padding: 1%;
+  margin: 1%;
+}
+#img{
+  padding: 3%;
+}
+.lower-middle-container{
+  display: flex;
+  justify-content: space-between;
+  width: 933px;
+}
+.lower-article{
+  background-color: white;
+  padding: 2%;
+}
+#sub{
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgb(56, 176, 207);
+  border: none;
+}
+.section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
